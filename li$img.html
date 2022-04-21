@@ -15,11 +15,19 @@
   <a href="https://facebook.com" target="-blank">Go to facebook</a><br>
   <a href="https://linkedin.com" target="-blank">Go to linkedin</a><br>
   <a href="glg.html" target="-blank"> Go to the another file name as glg.html </a><br>
+  <br>
+  <br>
+
+
   <!-- if image is not available then the text which is written in alt is shown -->
   <!-- here anushka.jpg is not available -->
   <img src="anushka.jpg" alt="No image is available">
   <!-- here shivji.jpg is avialable and it must be in the same folder (full stack)  -->
   <img src="shivji.jpg" alt="image is available">
+  <br>
+  <br>
+
+
   <h2>Table and lists</h2>
   <!-- Lists -->
   <!-- ul is used to write the unorder list -->
@@ -71,7 +79,60 @@
       </tr>
     </tbody>
   </table>
+  <br>
+  <br>
+
+  <!-- Forms using HTML -->
+  <!-- This gives the differnt types of input text some examples:checkbox,radio,textarea,date etc -->
   <h3>This is about forms</h3>
-  <form></form>
+    <form action="backend.php">
+      <div>
+      Name: <input type="text">
+    </div>
+    <br>
+    <div>
+      role: <input type=text">
+    </div>
+    <br>
+    <div>
+      EMail: <input type="text">
+    </div>
+    <br>
+    <div>
+     Date: <input type="date">
+    </div>
+    <br>
+    <div>
+    Time:<input type="text">
+    </div>
+   <br>
+   <div>
+     Are you eligible?<input type="checkbox">
+   </div>
+   <br>
+   <div>
+     Gender Male:<input type="radio"> Female:<input type="radio">Other:<input type="radio">
+   </div>
+   <br>
+   <div>
+     Write about Yourself:<br><textarea name="my text" cols="30" rows="10"></textarea>
+   </div>
+   <br>
+   <div>
+   <label for="car">Car</label>
+   <select name="mycar" id="car">
+     <option value="ind">Indica</option>
+     <option value="swf">Swift</option>
+      <!-- If you want to make the default selection then write  <option value="swift" Selected>Swift</option> -->
+   </select>
+  </div>
+   <br>
+   <div>
+      <input type="Submit" value="Submit Now">
+  <input type="reset" value="Reset Now">
+    </div>
+  </form>
+  <br>
+  <br>
 </body>
 </html>
